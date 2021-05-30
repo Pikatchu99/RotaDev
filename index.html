@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- Mobile Specific Meta -->
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <meta charset="UTF-8">
+   <!-- Site Title -->
+   <title>Rotary App</title>
+
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,700|Roboto:400,500" rel="stylesheet">
+
+   <!-- =========CSS ====== -->
+   <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="css/owl.carousel.css">
+   <link rel="stylesheet" href="css/main.css">
+
+<body>
+
+   <!-- Start Header Area -->
+   <header class="default-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+         <div class="container">
+            <a class="navbar-brand" href="#">
+               <img src="img/logo.png" alt="" style="width:100px; height:auto;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <i class="bx bx-menu" style="color: white !important;"></i>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
+               <ul class="navbar-nav">
+                  <li><a class="active" href="#home">Accueil</a></li>
+                  <li><a href="#reunion">Nos Reunions</a></li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Club
+                     </a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#membre">Membres</a>
+                        <a class="dropdown-item" href="#forum">Forum</a>
+                     </div>
+                  </li>
+                  <li><a href="#gallerie">Galerie</a></li>
+                  <li class="dropdown">
+                     <a class="dropdown-toggle" href="#utilisateur" id="navbardrop" data-toggle="dropdown">
+                        Utilisateur
+                     </a>
+                     <div class="dropdown-menu">
+                        <a class="dropdown-item" href="#login">Connexion</a>
+                        <a class="dropdown-item" href="#inscription">Inscription</a>
+                     </div>
+                  </li>
+                  <li><a href="#contact">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <!-- End Header Area -->
+
+   <!-- start banner Area -->
+   <section class="home-banner-area relative" id="header" data-parallax="scroll" data-image-src="img/bg.jpg">
+      <div class="overlay-bg overlay"></div>
+      <h1 class="template-name">rotary</h1>
+      <div class="container">
+         <div class="row fullscreen">
+            <div class="banner-content col-lg-8">
+               <p data-aos="flip-left" data-aos-duration="3000">Conçu pour vous</p>
+               <h1 data-aos="flip-left" data-aos-duration="2000">
+                  <p data-aos="flip-up" data-aos-duration="2000">Restez informés des dernières actualités de votre
+                     communauté</p>
+               </h1>
+               <div>
+                  <a href="#!"><img class="app-badge" style="width: 150px; margin-right: 10px;"
+                        src="img/svg/google-play-badge.svg" alt="..." /></a>
+                  <a href="#!"><img class="app-badge" style="width: 150px;" src="img/svg/app-store-badge.svg"
+                        alt="..." /></a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="head-bottom-meta">
+         <div class="d-flex meta-left no-padding">
+            <a href="#"><i class="bx bxl-facebook bx-md"></i></a>
+            <a href="#"><i class="bx bxl-twitter bx-md"></i></a>
+            <a href="#"><i class="bx bxl-instagram bx-md"></i></a>
+         </div>
+      </div>
+   </section>
+   <!-- End banner Area -->
+
+   <!-- Start testimonial Area -->
+   <section class="testimonial-area relative section-gap" id="testimonial">
+      <div class="container">
+         <div class="row d-flex justify-content-center">
+            <div class="col-lg-12">
+               <div class="section-title text-center">
+                  <h2 data-aos="fade-up" data-aos-duration="1000">Que pouvez-vous faire ?</h2>
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="active-testimonial">
+               <div class="single-testimonial item d-flex flex-row" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="thumb">
+                     <i class='bx bx-list-ul'></i>
+                  </div>
+                  <div class="desc">
+                     <p>
+                        Planifier toute l'organisation d'une reunion de clubs
+                     </p>
+                  </div>
+               </div>
+               <div class="single-testimonial item d-flex flex-row" data-aos="fade-up" data-aos-duration="1300">
+                  <div class="thumb">
+                     <i class='bx bxs-notepad'></i>
+                  </div>
+                  <div class="desc">
+                     <p>
+                        Consulter le planning des reunions et/ou evenement a venir.
+                     </p>
+                  </div>
+               </div>
+               <div class="single-testimonial item d-flex flex-row" data-aos="fade-up" data-aos-duration="1200">
+                  <div class="thumb">
+                     <i class='bx bxs-message-square-check'></i>
+                  </div>
+                  <div class="desc">
+                     <p>
+                        Signaler la participation a une réunion en ligne
+                     </p>
+                  </div>
+               </div>
+               <div class="single-testimonial item d-flex flex-row">
+                  <div class="thumb">
+                     <i class='bx bxs-message-rounded-detail'></i>
+                  </div>
+                  <div class="desc">
+                     <p>
+                        Discuter entre rotarien sur un forum dedié et étendu à l'international
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="home">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1000">
+               <img class="img-fluid" src="img/acceuil.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in" data-aos-duration="1200">
+               <div class="section-title text-left">
+                  <h2>Accueil</h2>
+               </div>
+               <div>
+                  <p>
+                     Voir l'actualité du Rotary Club
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="reunion">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in" data-aos-duration="1100">
+               <div class="section-title text-left">
+                  <h2>Dernières publications</h2>
+               </div>
+               <div>
+                  <p>
+                     Voir les dernières réunions planifiées
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1200">
+               <img class="img-fluid" src="img/reunion.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="login">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-right" data-aos-duration="2000">
+               <div class="section-title text-left">
+                  <h2>Connexion</h2>
+               </div>
+               <div>
+                  <p>
+                     Connectez-vous si vous aviez déjà un compte
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+            <div class="col-lg-7 col-md-12 about-left" data-aos="zoom-in-left" data-aos-duration="2000">
+               <img class="img-fluid" src="img/connexion.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="inscription">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="zoom-in-right" data-aos-duration="800">
+               <img class="img-fluid" src="img/inscription.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-left" data-aos-duration="800">
+               <div class="section-title text-left">
+                  <h2>Inscriptions</h2>
+               </div>
+               <div>
+                  <p>
+                     Inscrivez-vous ici si vous n'aviez pas de compte
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="inscription">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="zoom-in-right" data-aos-duration="800">
+               <img class="img-fluid" src="img/reunion-removebg-preview.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-left" data-aos-duration="800">
+               <div class="section-title text-left">
+                  <h2>Nos Reunions</h2>
+               </div>
+               <div>
+                  <p>
+                     Voir les réunions déjà planifiées par les reponsables de rotary club
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+
+   <section class="about-area section-gap" id="inscription">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="zoom-in-right" data-aos-duration="800">
+               <img class="img-fluid" src="img/ajouter_reunion-removebg-preview.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-left" data-aos-duration="800">
+               <div class="section-title text-left">
+                  <h2>Planifier Reunion</h2>
+               </div>
+               <div>
+                  <p>
+                     Responsable ? Planifiez votre réunion ici
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+
+
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="membre">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1200">
+               <img class="img-fluid" src="img/membre-removebg-preview.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-right" data-aos-duration="1300">
+               <div class="section-title text-left">
+                  <h2>Membres</h2>
+               </div>
+               <div>
+                  <p>
+                     Voir les membres appartenant à un club
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="membre">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1200">
+               <img class="img-fluid" src="img/messag_prive-removebg-preview.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-right" data-aos-duration="1300">
+               <div class="section-title text-left">
+                  <h2>Messagerie privée</h2>
+               </div>
+               <div>
+                  <p>
+                     Discutez avec un membre en privée
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="forum">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-right" data-aos-duration="1400">
+               <div class="section-title text-left">
+                  <h2>Forum</h2>
+               </div>
+               <div>
+                  <p>
+                     Discutez avec les membres du rotary d'ici et d'ailleurs
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1400">
+               <img class="img-fluid" src="img/forum-removebg-preview.png" alt="">
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="gallerie">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1000">
+               <img class="img-fluid" src="img/galerie-removebg-preview.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-left" data-aos-duration="1000">
+               <div class="section-title text-left">
+                  <h2>Galerie</h2>
+               </div>
+               <div>
+                  <p>
+                     Accédez à notre galerie
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="gallerie">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-7 col-md-12 about-left" data-aos="fade-up" data-aos-duration="1000">
+               <img class="img-fluid" src="img/archive-removebg-preview.png" alt="">
+            </div>
+            <div class="col-lg-5 col-md-12 about-right" data-aos="zoom-in-left" data-aos-duration="1000">
+               <div class="section-title text-left">
+                  <h2>Achives</h2>
+               </div>
+               <div>
+                  <p>
+                     Voir les planifications de reunion antérieurs
+                  </p>
+               </div>
+               <!-- <a href="#" class="primary-btn">Read More</a> -->
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+   <!-- Start About Area -->
+   <section class="about-area section-gap" id="contact">
+      <div class="container">
+         <div class="row align-items-center justify-content-center">
+            <div class="col-lg-4 col-md-12 about-left">
+               <div class="section-title text-left">
+                  <h2 data-aos="zoom-in">Contactez-Nous</h2>
+               </div>
+            </div>
+            <div class="col-lg-8 col-md-12 about-right">
+               <form>
+                  <div class="form-group">
+                     <label for="formGroupExampleInput">Email</label>
+                     <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Entrez un email">
+                  </div>
+                  <div class="form-group">
+                     <label for="exampleFormControlTextarea1">Commentaire</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                  </div>
+                  <button type="submit" style="background-color: #0c3c7c; color:#fff" class="btn btn-lg btn-block"
+                     data-aos="fade-up">Envoyer</button>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- End About Area -->
+
+
+   <!-- start footer Area -->
+   <footer class="footer-area">
+      <div class="container">
+         <div class="row p-5">
+            <div class="col-lg-2 col-md-6 single-footer-widget">
+               <a href="#!"><img class="app-badge" style="width: 150px; margin-right: 10px;"
+                     src="img/svg/google-play-badge.svg" alt="..." /></a>
+            </div>
+            <div class="col-lg-2 col-md-6 single-footer-widget">
+               <a href="#!"><img class="app-badge" style="width: 150px;" src="img/svg/app-store-badge.svg"
+                     alt="..." /></a>
+            </div>
+
+            <div class="col-lg-4 col-md-12 single-footer-widget">
+               <h4>Newsletter</h4>
+               <p>Abonnez vous a notre newsletter pour reçevoir les dernières informations sur les fonctionnalitées de
+                  notre applications</p>
+               <div class="form-wrap" id="mc_embed_signup">
+                  <form action="#" method="POST">
+                     <input class="form-control mb-3" name="email" placeholder="Your Email Address" />
+                     <a href="#" class="btn btn-primary">Envoyer</a>
+                  </form>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+               <a href="#"><i class="bx bxl-facebook bx-md" style="color: #fff;"></i></a>
+               <a href="#"><i class="bx bxl-twitter bx-md" style="color: #fff;"></i></a>
+               <a href="#"><i class="bx bxl-instagram bx-md" style="color: #fff;"></i></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/jquery-2.2.4.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery.ajaxchimp.min.js"></script>
+   <script src="js/parallax.min.js"></script>
+   <script src="js/owl.carousel.min.js"></script>
+   <script src="js/isotope.pkgd.min.js"></script>
+   <script src="js/jquery.nice-select.min.js"></script>
+   <script src="js/jquery.magnific-popup.min.js"></script>
+   <script src="js/jquery.sticky.js"></script>
+   <script src="js/main.js"></script>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+</body>
